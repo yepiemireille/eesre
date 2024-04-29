@@ -1,0 +1,176 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+
+header {
+    background-color: #571e0d;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.block-header, .block-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-nav li a:focus{
+    border-bottom-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 10px;
+}
+
+header li{
+    color: white;
+}
+
+li input{
+    border-radius: 12px;
+}
+
+.block-menu{
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+nav li{
+    padding: 30px 34px;
+}
+
+header img{
+    width: 20px;
+    height: 20px;
+}
+
+.block-img{
+    background-image: url("../assets/images/msg6430065235-5095.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-fondateur{
+    display: flex;
+    margin: 50px 0px;
+}
+
+.block-fondateur-h2{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 34px;
+}
+
+.block-famille{
+    margin: 50px 0px;
+}
+
+.block-card-img h5, .block-card-img span,  .block-departement-title span{
+    font-weight: bold;
+    color: #571e0d;
+}
+
+.block-card-img h5{
+    margin-bottom: 12px;
+}
+
+.block-card-img{
+    background-color: white;
+    padding: 22px 22px;
+    margin-left: -600px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.block-card-img button{
+    margin-top: 12px;
+    padding: 8px 45px;
+    border-radius: 84px;
+}
+
+// .block-card-img button:first-child{
+//     margin-right: 57px;
+// }
+
+.block-departement-card{
+    border-radius: 12px;
+    background-color: white;
+    padding: 12px 22px;
+    margin: 80px 60px;
+    border-bottom-color: #571e0d;
+    display: flex;
+    border: 2px solid #571e0d;
+}
+
+.block-departement-card p:first-child {
+    font-size: 10px;
+}
+
+.block-departement-title{
+    padding: 21px 10px 21px 31px;
+}
+
+.block-departement-card h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: #571e0d;
+}
+
+.block-departement-card img{
+    width: 80px;
+    height: 80px;
+    padding-right: 12px;
+}
+
+.block-pasteur {
+    margin: 50px 34px;
+    text-align: center;
+}
+
+.block-pasteur-img h2{
+    font-weight: bold;
+    margin: 50px 34px;
+}
+
+.block-pasteur img {
+    width: 200px;
+    height: 200px;
+    margin-top: 34px;
+}
+
+.block-pasteur-first-p{
+    color: #571e0d;
+    font-weight: bold;
+}
+
+.block-pasteur-second-p{
+    font-size: 12px;
+}
+
+  
+
